@@ -39,9 +39,6 @@ Use this command to run the scrypt - open screen and choose parameters:
 
 Then: exit screen ```CTRL + A +D```
 
-ReRun scrypt after stopping:
-
-```screen -S autorestart bash ~/autorestart_bash.sh```
 
 ---
 
