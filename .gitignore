@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Gensyn project-specific files
+gensyn_params.txt
+gensyn_restart_count.txt
+*.log
