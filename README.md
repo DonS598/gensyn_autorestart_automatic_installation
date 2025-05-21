@@ -45,6 +45,18 @@ Ctrl + A, then D
 
 ---
 
+### 🔹 Manual restart if script was stopped
+
+If the script was stopped and you want to relaunch it manually:
+
+```bash
+screen -S autorestart bash ~/autorestart_bash.sh
+```
+
+This will start the script again inside a new `screen` session.
+
+---
+
 ## 📄 View logs
 
 Logs are saved to:
