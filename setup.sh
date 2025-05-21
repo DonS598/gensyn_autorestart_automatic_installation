@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://raw.githubusercontent.com/DonS598/gensyn-node/main"
+REPO_URL="https://raw.githubusercontent.com/DonS598/autorestart_gensyn/main"
 
 # Скачиваем нужные скрипты
 wget -O ~/autorestart_bash.sh "$REPO_URL/autorestart_bash.sh"
