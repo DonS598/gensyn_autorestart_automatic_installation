@@ -74,7 +74,9 @@ Press `Ctrl + C` to stop viewing logs.
 - If the node stops due to one of the following errors:
 
 UnboundLocalError: cannot access local variable 'current_batch'
+
 hivemind.p2p.p2p_daemon_bindings.utils.P2PDaemonError: Daemon failed to start in 30.0 seconds
+
 FileNotFoundError: [Errno 2] No such file or directory
 
 - Swarm type and model size are selected during initial run
