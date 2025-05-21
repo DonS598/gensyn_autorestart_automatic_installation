@@ -32,7 +32,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/DonS598/autorestart_gensyn/ma
 This will:
 - Download all required scripts
 - Make them executable
-- 
+
 Use this command to run the scrypt - open screen and choose parameters:
 screen -S autorestart bash ~/autorestart_bash.sh
 Then: exit screen CTRL + A +D
