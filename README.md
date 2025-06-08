@@ -23,7 +23,15 @@ it will automatically restart using the parameters chosen during the initial man
 
 ## 🚀 Installation
 
-Run this command on your server (Ubuntu VPS, etc.):
+First of all delete old run_rl_swarm.sh file:
+
+```rm /root/rl-swarm/run_rl_swarm.sh```
+
+Download new run_rl_swarm.sh and make executable:
+
+```wget -O /root/rl-swarm/run_rl_swarm.sh https://raw.githubusercontent.com/DonS598/gensyn_autorestart_automatic_installation/main/run_rl_swarm.sh && chmod +x /root/rl-swarm/run_rl_swarm.sh```
+
+Run this command:
 
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/DonS598/autorestart_gensyn/main/setup.sh)
